@@ -1,7 +1,9 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({super.key});
 
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1564332017.
   @override
@@ -10,7 +12,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
+          children: const [
             Icon(
               Icons.menu,
               color: Color.fromRGBO(0, 0, 0, 1.0),
