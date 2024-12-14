@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  const Home({super.key});
+  const Home({Key? key}) : super(key: key);
 
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1564332017.
   @override
