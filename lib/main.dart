@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:myapp/screens/home.dart';
 
 void main() {
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemUiOverlayStyle(statusBarColor: Colors.transparent);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'ToDo App',
